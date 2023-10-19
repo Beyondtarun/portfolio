@@ -34,13 +34,24 @@
   color: #61dafb;
 }
 .SocialLinks{
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
-  padding: 0%;
+  padding: 10px;
   width: 100vw;
-  background: white;
+  
 }
+.SocialLinks .social-icon{
+  margin: 5px;
+  color: grey;
+  transition: all 0.4s ease;
+}
+.SocialLinks .social-icon:hover{
+  color: yellow;
+  scale: 1.1;
+  
+}
+
 
 /* @keyframes App-logo-spin {
   from {
